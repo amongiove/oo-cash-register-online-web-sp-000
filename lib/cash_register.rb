@@ -16,7 +16,7 @@ class CashRegister
     @last_item = price * quantity
       while quantity >= 1
         @items.push(title)
-        @total += price
+        self.total += price
         quantity = quantity - 1
       end
     @total
