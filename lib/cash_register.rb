@@ -27,7 +27,7 @@ class CashRegister
 
   def void_last_transaction
     last_item = items.length
-    self.total - last_item.price
+    self.total - last_item[price]
 
 
   end
